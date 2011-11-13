@@ -6,7 +6,8 @@ gem 'rails', '3.1.0'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql'
-
+gem 'rspec-rails'
+gem 'win32console'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -27,11 +28,4 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-group :development do
-  gem 'rspec-rails'
-end
-
-group :test do
-  gem 'rspec', '2.0.1'
-  gem 'webrat', '0.7.1'
-end
+  gem 'webrat'
